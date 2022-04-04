@@ -8,6 +8,7 @@ module.exports = {
           "indi-grey-10": "#F6F6F6",
           "indi-grey-20": "#EAEAEA",
           "indi-grey-30": "#A5A9B0",
+          "indi-grey-60": "#B7BAC0",
           "indi-black-80": "#303641",
         },
         fontFamily: {
