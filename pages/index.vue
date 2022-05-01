@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <main>
     <TheNavBar />
-    <header class="flex">
-      <div class="w-1/2 top-0 bottom-0 relative">
+    <header class="flex lg:flex-row flex-col">
+      <div class=" md:h-191 lg:h-auto lg:w-1/2 w-full top-0 bottom-0 relative">
         <div
           class="
             absolute
@@ -36,14 +36,14 @@
             right-0
           "
         >
-          <h1 class="text-center text-indi-black font-eudoxus text-7xl">
-            We bring your
-            <br />vision to
+          <h1 class="md:ml-14 text-left lg:text-center text-indi-black font-eudoxus lg:text-7xl md:text-5.5xl text-4.5xl">
+            We bring your<br />
+            vision to
             <span class="text-indi-red">life</span>
           </h1>
         </div>
       </div>
-      <div div class="w-1/2 h-full border-l border-t grid grid-cols-2">
+      <div div class="md:w-full lg:w-1/2 h-full border-l border-t grid grid-cols-2">
         <ServiceCard>
           <template #title>Advice</template>
           <template #description>
@@ -87,7 +87,7 @@
           :selected="true"
           class="font-eudoxus text-indi-black"
         >
-          <h1 class="text-3.5xl">Business Operations Optimization 1</h1>
+          <h1 class="text-3.5xl">Business Operations Optimization</h1>
           <p class="text-lg font-light">
             Using a data-driven approach, we guide organizations through their
             digital transformation journey. Our technique helps organizations
@@ -116,32 +116,47 @@
           </div>
         </Tab>
         <Tab title="Custom Software & System Integration" class="font-eudoxus">
-          <h1 class="text-3.5xl">Business Operations Optimization 2</h1>
-          <p class="text-lg">
-            Using a data-driven approach, we guide organizations through their
-            digital transformation journey. Our technique helps organizations
-            exploit their digital assets and opportunities. Whether exceeding
-            customer expectations or turbocharging operations, we work with you
-            to exercise the best tech options. The experienced team at Indisys
-            are both value-driven consultants and hands-on executives at the
-            intersection of business, operating processes, and technology. We
-            have successfully delivered solutions for organizations in the Oil &
-            Gas, Insurance, Civil Society, and government regulatory spaces.
+          <h1 class="text-3.5xl">Custom Software & System Integration</h1>
+          <p class="text-lg font-light">
+            We deliver modern software solutions tailored to the key business
+            objectives of our clients. From ideation through to deployment, we
+            solve complex problems using our mastery of technologies that target
+            mobile, web, desktop, and Internet-Of-Things (IoT). We specialize in
+            integrating different systems and technologies that yield higher ROI
+            from your existing technology investment. Our AGILE approach to
+            project execution offers adaptability while sustaining client
+            engagement. So, whether you are in Financial Services, Oil & Gas,
+            Media, Healthcare, Retail, NGO, or Government, you can depend on us
+            to get it right.
           </p>
+          <div class="flex justify-end mt-16">
+            <img
+              src="/images/custom-built-software.svg"
+              alt="business transformation"
+            />
+          </div>
         </Tab>
         <Tab title="IT Outsourcing" class="font-eudoxus">
-          <h1 class="text-3.5xl">Business Operations Optimization 3</h1>
-          <p class="text-lg">
-            Using a data-driven approach, we guide organizations through their
-            digital transformation journey. Our technique helps organizations
-            exploit their digital assets and opportunities. Whether exceeding
-            customer expectations or turbocharging operations, we work with you
-            to exercise the best tech options. The experienced team at Indisys
-            are both value-driven consultants and hands-on executives at the
-            intersection of business, operating processes, and technology. We
-            have successfully delivered solutions for organizations in the Oil &
-            Gas, Insurance, Civil Society, and government regulatory spaces.
+          <h1 class="text-3.5xl">IT Outsourcing</h1>
+          <p class="text-lg font-light">
+            Finding the right personnel to manage your investment in computing
+            hardware, network and software is a big challenge for small and
+            mid-sized companies. However, the risk of failure can be
+            catastrophic. Globally, there is a growing threat of cyberattacks
+            against businesses of all sizes. Our seasoned team of Systems
+            Administrators, Auditors, and Networking Engineers will secure and
+            maintain the smooth running of your IT infrastructure. We also
+            provide sage advice and recommendations when making IT purchase
+            decisions for optimal ROI. Lastly, your staff will be continually
+            trained to effectively use productivity tools. Let us run your IT so
+            you can focus on your core business.
           </p>
+                    <div class="flex justify-end mt-16">
+            <img
+              src="/images/it-outsourcing.svg"
+              alt="business transformation"
+            />
+          </div>
         </Tab>
       </ExpertiseTabs>
     </section>
@@ -174,7 +189,7 @@
       </div>
     </section>
     <section class="pl-26 bg-indi-black-80">
-      <Carousel />
+      <!-- <Carousel /> -->
     </section>
     <section class="py-36 px-26 font-eudoxus text-indi-black">
       <h1 class="text-4.5xl mb-24">Who we serve</h1>
@@ -377,94 +392,9 @@
         </IndustryCard>
       </div>
     </section>
-    <section class="flex h-145 border-b font-eudoxus">
-      <div
-        class="
-          pt-26
-          bg-indi-grey-20
-          flex-1
-          h-full
-          flex flex-col
-          justify-between
-          pb-44
-          relative
-          px-26
-        "
-      >
-        <p class="text-4.5xl">
-          Want to work with us?
-          <br />Let's talk
-        </p>
-        <div>
-          <small>Find us</small>
-          <p class="font-bold text-xl mt-2">
-            45 Kofi Annan St,
-            <br />Accra, Ghana
-          </p>
-        </div>
-        <div class="absolute bottom-0 left-0">
-          <img src="@/assets/images/svg/half-dot-circle.svg" alt />
-        </div>
-      </div>
-      <div class="pt-26 flex flex-col flex-1 border-t">
-        <div class="flex-1 px-26">
-          <p class="text-4xl">Book a consultation</p>
-          <button class="bg-indi-red text-white flex p-6 text-base mt-12">
-            Book a session
-            <img
-              src="@/assets/images/svg/arrow-right-small.svg"
-              alt="let's go"
-              class="ml-7"
-            />
-          </button>
-        </div>
-        <div class="flex-1 border-t px-26 py-26">
-          <p class="text-4xl">Email us</p>
-          <button class="bg-indi-red text-white flex p-6 text-base mt-12">
-            Send email
-            <img
-              src="@/assets/images/svg/arrow-right-small.svg"
-              alt="let's go"
-              class="ml-7"
-            />
-          </button>
-        </div>
-      </div>
-    </section>
-    <footer class="px-26 pt-12 font-eudoxus pb-16">
-      <ul class="text-right text-indi-grey pb-8 text-xs">
-        <li class="inline-block pl-12">
-          <a href="#">Services</a>
-        </li>
-        <li class="inline-block pl-12">
-          <a href="#">About</a>
-        </li>
-        <li class="inline-block pl-12">
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-      <div class="flex justify-between">
-        <p class="text-indi-grey text-sm">&copy; Indysis 2021</p>
-        <div class="flex">
-          <img
-            src="@/assets/images/svg/facebook-logo.svg"
-            alt="facebook"
-            class="ml-3"
-          />
-          <img
-            src="@/assets/images/svg/linkedin-logo.svg"
-            alt="facebook"
-            class="ml-3"
-          />
-          <img
-            src="@/assets/images/svg/twitter-logo.svg"
-            alt="facebook"
-            class="ml-3"
-          />
-        </div>
-      </div>
-    </footer>
-  </div>
+    <ContactUs />
+    <Footer />
+  </main>
 </template>
 
 <script>
@@ -473,7 +403,7 @@ import TheNavBar from '~/components/TheNavBar.vue'
 import ExpertiseTabs from '~/components/ExpertiseTabs.vue'
 import Tab from '~/components/Tab.vue'
 import IndustryCard from '~/components/IndustryCard.vue'
-import Carousel from '~/components/Carousel.vue'
+import ContactUs from '~/components/ContactUs.vue'
 export default {
   components: {
     TheNavBar,
@@ -481,7 +411,7 @@ export default {
     ExpertiseTabs,
     Tab,
     IndustryCard,
-    Carousel,
+    ContactUs,
   },
 }
 </script>

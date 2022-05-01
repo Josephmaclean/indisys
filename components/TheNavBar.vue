@@ -3,7 +3,9 @@
 
   <div class="absolute left-0 right-0 top-0 bg-transparent z-30">
     <div class="flex justify-between mx-28 max-h-26 pt-8">
-      <img src="@/assets/images/svg/indisys-logo.svg" alt="Indisys Logo">
+      <a href="/">
+        <img src="@/assets/images/svg/indisys-logo.svg" alt="Indisys Logo">
+      </a>
       <button @click="toggleMenu">
         <img src="@/assets/images/svg/menu.svg" alt="Menu" class="w-10">
       </button>
@@ -25,8 +27,8 @@
             <li class="mt-8 text-base">We support</li>
           </ul>
         </li>
-        <li class="mb-4"><a href="#" class="text-7xl">about</a> </li>
-        <li><a href="#" class="text-7xl">contact</a> </li>
+        <li class="mb-4"><a href="/about" class="text-7xl">about</a> </li>
+        <li><a href="/contact" class="text-7xl">contact</a> </li>
       </ul>
     </div>
   </nav>
