@@ -12,14 +12,14 @@
     </div>
   </div>
   <nav class=" z-50 flex top-0 bottom-0 right-0 overflow-x-hidden" :class="{'active': active && true}">
-    <div class="flex-1"></div>
-    <div class="flex-1 bg-indi-black pl-20">
+    <div class="flex-1 lg:block hidden"></div>
+    <div class="flex-1 bg-indi-black lg:pl-20 pl-8 ">
       <button class="float-right mt-10 mr-10" @click="toggleMenu">
         <img src="@/assets/images/svg/close.svg" alt="close">
       </button>
       <ul class="mt-32">
         <li class=" mb-4">
-          <a href="#" class=" text-7xl">Services</a>
+          <a href="#" class="lg:text-7xl md:text-7xl text-4.5xl">Services</a>
           <ul>
             <li class="mt-8 text-base">We advise</li>
             <li class="mt-8 text-base">We build</li>
@@ -27,8 +27,8 @@
             <li class="mt-8 text-base">We support</li>
           </ul>
         </li>
-        <li class="mb-4"><a href="/about" class="text-7xl">about</a> </li>
-        <li><a href="/contact" class="text-7xl">contact</a> </li>
+        <li class="mb-4"><a href="/about" class="lg:text-7xl md:text-7xl text-4.5xl">about</a> </li>
+        <li><a href="/contact" class="lg:text-7xl md:text-7xl text-4.5xl">contact</a> </li>
       </ul>
     </div>
   </nav>
@@ -52,7 +52,7 @@ export default {
 <style lang="scss" scoped>
 nav {
   background-color: #24293260;
-  position: absolute;
+  position: fixed;
   width: 0;
   transition: all 0.5s ease-in;
 
