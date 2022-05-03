@@ -1,6 +1,6 @@
 # indisys
 
-## Build Setup
+## We bring vision to life
 
 ```bash
 # install dependencies
