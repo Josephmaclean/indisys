@@ -1,9 +1,9 @@
 <template>
-  <div class=" font-eudoxus card border-r border-b w-full pb-14 px-10 text-indi-black text-3.5xl flex flex-col justify-end bg-indi-grey-10 hover:bg-indi-red relative">
+  <div class=" font-eudoxus card border-r border-b w-full md:pb-6 pb-6 lg:pb-14 lg:px-10 px-6 md:px-12 text-indi-black md:text-2xl lg:leading-normal lg:text-3.5xl flex flex-col justify-end bg-indi-grey-10 hover:bg-indi-red relative">
     <div class="absolute">
 
       <p><slot name="title" /></p>
-      <img src="@/assets/images/svg/arrow-right.svg" alt="view more" class="mt-8 text-left w-7.5">
+      <img src="@/assets/images/svg/arrow-right.svg" alt="view more" class="lg:mt-8 mt-6 text-left w-7.5">
     </div>
     <div class="absolute right-10 left-10 text-white">
       <slot name="description" />

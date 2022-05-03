@@ -2,7 +2,7 @@
   <main class="font-eudoxus text-indi-black">
     <TheNavBar />
     <header>
-      <div class="px-26 pt-80 flex">
+      <div class="md:px-12 lg:px-26 md:pt-66 lg:pt-80 flex">
         <img
           src="@/assets/images/svg/quarter-dot-circle.svg"
           alt="Indisys Logo"
@@ -10,12 +10,12 @@
         />
         <div>
           <small class="uppercase text-base text-indi-grey">we advise</small>
-          <h1 class="text-4.5xl w-149 mr-28">
+          <h1 class="md:text-4xl lg:text-4.5xl lg:w-2/3 md:w-full lg:leading-normal md:leading-relaxed">
             We've helped organizations build the right tech solutions.
           </h1>
-          <p class="text-3.5xl">We can help you too</p>
+          <p class="md:text-2xl lg:text-3.5xl mt-8">We can help you too</p>
         </div>
-        <img src="@/assets/images/svg/arrow-down.svg" alt="arrow down" />
+        <img src="@/assets/images/svg/arrow-down.svg" alt="arrow down" class="lg:block md:hidden"/>
       </div>
       <img
         src="@/assets/images/jpg/mars-IgUR1iX0mqM-unsplash.jpg"
@@ -23,12 +23,12 @@
         class="h-140 w-full mt-24"
       />
     </header>
-    <section class="px-73 py-60 bg-indi-black text-white">
-      <h1 class="text-4xl mb-10">
+    <section class="lg:px-73 md:px-36 py-60 bg-indi-black text-white">
+      <h1 class="md:text-3.5xl lg:text-4xl mb-10">
         By relying on AGILE methods, we produce software that is robust,
         performant with high customer satisfaction
       </h1>
-      <p class="text-2xl text-indi-grey-60">
+      <p class="md:text-lg lg:text-2xl text-indi-grey-60">
         Having successfully delivered tech solutions from ideation to market, we
         are your reliable partner for deploying innovative solutions for your
         business. As a legal and ethically compliant entity, we adhere to due

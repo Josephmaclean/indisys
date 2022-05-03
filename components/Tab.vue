@@ -1,6 +1,6 @@
 <template>
-  <div class="content" :class="{'active': isActive}">
-    <div class="absolute bottom-0 top-0">
+  <div v-show="isActive">
+    <div>
       <slot />
     </div>
   </div>
@@ -32,14 +32,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.content {
-  height: 250px;
-  opacity: 0;
+// .content {
+//   // height: 250px;
+//   opacity: 0;
 
-  &.active {
-    opacity: 1;
-  }
+//   &.active {
+//     opacity: 1;
+//   }
 
-  transition: opacity 0.1s linear;
-}
+//   transition: opacity 0.1s linear;
+// }
 </style>

@@ -2,12 +2,12 @@
 <div class="font-eudoxus text-indi-grey-60">
 
   <div class="absolute left-0 right-0 top-0 bg-transparent z-30">
-    <div class="flex justify-between mx-28 max-h-26 pt-8">
+    <div class="flex justify-between lg:mx-28 md:mx-12 mx-6 max-h-26 pt-8">
       <a href="/">
-        <img src="@/assets/images/svg/indisys-logo.svg" alt="Indisys Logo">
+        <img src="@/assets/images/svg/indisys-logo.svg" alt="Indisys Logo" class="lg:h-auto md:h-auto h-6">
       </a>
       <button @click="toggleMenu">
-        <img src="@/assets/images/svg/menu.svg" alt="Menu" class="w-10">
+        <img src="@/assets/images/svg/menu.svg" alt="Menu" class="w-10 lg:h-auto md:h-auto h-4">
       </button>
     </div>
   </div>

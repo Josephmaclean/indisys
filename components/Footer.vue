@@ -1,5 +1,5 @@
 <template>
-    <footer class="px-26 pt-12 font-eudoxus pb-16">
+    <footer class="md:px-12 lg:px-26 px-6 py-8 font-eudoxus lg:pb-16 md:pb-8 md:pt-8">
       <ul class="text-right text-indi-grey pb-8 text-xs">
         <li class="inline-block pl-12">
           <a href="#">Services</a>
@@ -17,17 +17,17 @@
           <img
             src="@/assets/images/svg/facebook-logo.svg"
             alt="facebook"
-            class="ml-3"
+            class="ml-3 lg:h-auto md:h-auto h-4"
           />
           <img
             src="@/assets/images/svg/linkedin-logo.svg"
             alt="facebook"
-            class="ml-3"
+            class="ml-3 lg:h-auto md:h-auto h-4"
           />
           <img
             src="@/assets/images/svg/twitter-logo.svg"
             alt="facebook"
-            class="ml-3"
+            class="ml-3 lg:h-auto md:h-auto h-4"
           />
         </div>
       </div>

@@ -1,14 +1,26 @@
 <template>
   <main class="font-eudoxus text-indi-black">
     <TheNavBar />
-    <header class="px-26 pt-80 pb-26">
+    <header
+      class="
+        md:px-12
+        lg:px-26
+        px-6
+        lg:pt-80
+        md:pt-66
+        pt-56
+        lg:pb-26
+        md:pb-18
+        pb-12
+      "
+    >
       <img
         src="@/assets/images/svg/quarter-dot-circle.svg"
         alt="Indisys Logo"
         class="absolute top-0 right-0"
       />
-      <div class="w-149">
-        <h1 class="text-4.5xl mr-28">Get in touch</h1>
+      <div class="lg:w-3/4">
+        <h1 class="lg:text-4.5xl md:text-4xl text-3.5xl mb-8">Get in touch</h1>
         <p class="text-lg">
           Whether you would like more information about our offering or about
           our company, we invite you to drop us a line via phone, e-mail or stop
@@ -16,8 +28,19 @@
         </p>
       </div>
     </header>
-    <section class="flex">
-      <div class="flex-1 bg-indi-grey-20 pt-26 pl-26">
+    <section class="flex lg:flex-row md:flex-col flex-col">
+      <div
+        class="
+          flex-1
+          bg-indi-grey-20
+          lg:pt-26
+          md:pt-26
+          pt-20
+          lg:pl-26
+          md:pl-26
+          px-6
+        "
+      >
         <div class="flex">
           <div
             class="
@@ -38,10 +61,12 @@
           </div>
           <div>
             <p class="text-sm mb-2">Email</p>
-            <p class="text-xl font-bold">info@indysisglobal.com</p>
+            <p class="lg:text-xl md:text-xl text-base font-bold">
+              info@indysisglobal.com
+            </p>
           </div>
         </div>
-        <div class="flex my-20">
+        <div class="flex lg:my-20 my-12">
           <div
             class="
               h-12
@@ -61,10 +86,12 @@
           </div>
           <div>
             <p class="text-sm mb-2">Contact</p>
-            <p class="text-xl font-bold">+233 20 262 9021</p>
+            <p class="lg:text-xl md:text-xl text-base font-bold">
+              +233 20 262 9021
+            </p>
           </div>
         </div>
-                <div class="flex my-20">
+        <div class="flex lg:my-20 my-12">
           <div
             class="
               h-12
@@ -84,10 +111,10 @@
           </div>
           <div>
             <p class="text-sm mb-2">Find us</p>
-                    <p class="text-xl font-bold">
-          8 Second Labone St, <br />
-          Accra, Ghana
-        </p>
+            <p class="lg:text-xl md:text-xl text-base font-bold">
+              8 Second Labone St, <br />
+              Accra, Ghana
+            </p>
           </div>
         </div>
         <div class="flex mt-20">
@@ -176,7 +203,7 @@
         </div>
         <img src="@/assets/images/svg/half-dot-circle-2.svg" alt="" />
       </div>
-      <div class="flex-1 p-26 font-eudoxus text-indi-grey-60">
+      <div class="flex-1 lg:p-26 md:p-26 p-6 font-eudoxus text-indi-grey-60 text-lg">
         <p class="text-4xl mb-14 text-indi-black">Make an enquiry</p>
         <input
           type="text"
