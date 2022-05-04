@@ -32,7 +32,6 @@
             justify-center
             bg-transparent
             absolute
-            z-10
             left-0
             right-0
           "
