@@ -3,10 +3,10 @@
     <div class="lg:mb-26 md:mb-20">
       <slot name="svg" />
     </div>
-    <h5 class="lg:text-2xl md:text-lg mb-6">Governments</h5>
+    <h5 class="lg:text-2xl md:text-lg mb-6"><slot name="title"/></h5>
     <p class="font-light md:text-sm">
-      We collaborate with Minitries, Departments and Agencies across Africa to
-      optimize and process outcomes
+      <slot name="description"/>
+
     </p>
   </div>
 </template>

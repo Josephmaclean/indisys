@@ -114,7 +114,7 @@
           <h1 class="md:text-2xl lg:text-3.5xl mb-6">
             Business Operations Optimization
           </h1>
-          <p class="text-base md:text-lg font-light">
+          <p class="text-base md:text-lg font-light leading-loose">
             Using a data-driven approach, we guide organizations through their
             digital transformation journey. Our technique helps organizations
             exploit their digital assets and opportunities. Whether exceeding
@@ -349,6 +349,11 @@
                 />
               </svg>
             </template>
+            <template #title>Government</template>
+            <template #description>
+                      We collaborate with Minitries, Departments and Agencies across Africa to
+      optimize and process outcomes
+            </template>
           </IndustryCard>
         </div>
         <div class="lg:w-auto md:w-66 mr-8 w-full mt-6 md:mt-0 lg:mt-0">
@@ -384,6 +389,12 @@
                   stroke-width="2"
                 />
               </svg>
+            </template>
+            <template #title>
+              NGO
+            </template>
+            <template #description>
+We work with Development Partners, Civil Society Organization, NGOs and allied partners for greater impact.
             </template>
           </IndustryCard>
         </div>
@@ -436,6 +447,12 @@
                   stroke-width="2"
                 />
               </svg>
+            </template>
+            <template #title>
+              Private Sector
+            </template>
+            <template #description>
+We partner with business across all sectors of the economy to gain exceptional leverage.
             </template>
           </IndustryCard>
         </div>
