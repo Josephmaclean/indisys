@@ -7,18 +7,26 @@
     </div>
     <div class="absolute left-4 right-4 lg:right-10 md:right-10 lg:left-10 md:left-10 text-white">
       <slot name="description" />
-      <small class="mt-8 lg:text-sm md:text-sm text-xs cursor-pointer">Learn more
-        <svg class="inline-block lg:h-auto md:h-auto h-3" width="30" height="16" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 8.69231H30M30 8.69231L19.6784 1M30 8.69231L19.6784 17" stroke="#ffffff" stroke-width="2"/>
-        </svg>
-      </small>
+      <a :href="url">
+        <small class="mt-8 lg:text-sm md:text-sm text-xs cursor-pointer">Learn more
+          <svg class="inline-block lg:h-auto md:h-auto h-3" width="30" height="16" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 8.69231H30M30 8.69231L19.6784 1M30 8.69231L19.6784 17" stroke="#ffffff" stroke-width="2"/>
+          </svg>
+        </small>
+      </a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-
+  name: 'ServiceCard',
+  props: {
+    url: {
+      type: String,
+      default: '#'
+    },
+  }
 }
 </script>
 <style lang="scss" scoped>

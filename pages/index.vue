@@ -68,8 +68,8 @@
           grid grid-cols-2
         "
       >
-        <ServiceCard>
-          <template #title>Advice</template>
+        <ServiceCard url="/advise">
+          <template #title>Advise</template>
           <template #description>
             <p class>
               Want to digitally transform your organisation?
@@ -77,7 +77,7 @@
             </p>
           </template>
         </ServiceCard>
-        <ServiceCard>
+        <ServiceCard url="/build">
           <template #title>Build</template>
           <template #description>
             <p>
@@ -86,8 +86,8 @@
             </p>
           </template>
         </ServiceCard>
-        <ServiceCard>
-          <template #title>Train</template>
+        <ServiceCard url="/empower">
+          <template #title>Empower</template>
           <template #description>
             <p>
               Let's train your teams on the best digital tools for greater
@@ -95,7 +95,7 @@
             </p>
           </template>
         </ServiceCard>
-        <ServiceCard>
+        <ServiceCard url="/support">
           <template #title>Support</template>
           <template #description>
             <p>We are your partner on this journey. Let's support you to win</p>
@@ -448,20 +448,20 @@
 
 
 <script>
-// import ServiceCard from '~/components/ServiceCard.vue'
+import ServiceCard from '~/components/ServiceCard.vue'
 import TheNavBar from '~/components/TheNavBar.vue'
-// import ExpertiseTabs from '~/components/ExpertiseTabs.vue'
-// import Tab from '~/components/Tab.vue'
-// import IndustryCard from '~/components/IndustryCard.vue'
-// import ContactUs from '~/components/ContactUs.vue'
+import ExpertiseTabs from '~/components/ExpertiseTabs.vue'
+import Tab from '~/components/Tab.vue'
+import IndustryCard from '~/components/IndustryCard.vue'
+import ContactUs from '~/components/ContactUs.vue'
 export default {
   components: {
     TheNavBar,
-    // ServiceCard,
-    // ExpertiseTabs,
-    // Tab,
-    // IndustryCard,
-    // ContactUs,
+    ServiceCard,
+    ExpertiseTabs,
+    Tab,
+    IndustryCard,
+    ContactUs,
   },
 }
 </script>

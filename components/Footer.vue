@@ -1,7 +1,7 @@
 <template>
     <footer class="md:px-12 lg:px-26 px-6 py-8 font-eudoxus lg:pb-16 md:pb-8 md:pt-8">
       <ul class="text-right text-indi-grey pb-8 text-xs">
-        <li class="inline-block pl-12">
+        <li class="inline-block">
           <a href="/advise">Services</a>
         </li>
         <li class="inline-block pl-12">

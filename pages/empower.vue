@@ -1,3 +1,4 @@
+
 <template>
   <main class="font-eudoxus text-indi-black">
     <TheNavBar />
@@ -17,7 +18,7 @@
               sm:text-xs
               text-indi-grey
             "
-            >we advise</small
+            >we empower</small
           >
           <h1
             class="
@@ -29,11 +30,9 @@
               text-3.5xl
             "
           >
-            Want to digitally transform your organisation?
+            Let’s train your team on the best digital tools for greater
+            effectiveness.
           </h1>
-          <p class="md:text-2xl lg:text-3.5xl lg:mt-8 md:mt-8 mt-6 text-lg">
-            We help you make smart choices
-          </p>
         </div>
         <img
           src="@/assets/images/svg/arrow-down.svg"
@@ -69,17 +68,15 @@
       "
     >
       <h1 class="md:text-3.5xl lg:text-4xl text-2xl mb-10">
-        We conduct a thorough assessment of your business and provide
-        domain-specific counsel/guidance.
+        We offer modern and relevant IT training that equips your team to
+        efficiently deliver on their objectives.
       </h1>
       <p class="md:text-lg lg:text-2xl text-base text-indi-grey-60">
-        We are the go-to team for both government and private technology
-        solutions. We are committed to delivering the right level of support to
-        eliminate your pain points. By setting you up on the path to digital
-        transformation, we provide economical solutions that align with your
-        strategy. Our primary focus is to ensure that you are armed with the
-        appropriate tools and resources to meet and exceed your
-        expectations/achieve your desired outcome as a business.
+        Your staff are your most important asset. As such, it is critical that
+        they acquire and upgrade their digital skills frequently. A well trained
+        human resource contributes to greater productivity and customer
+        satisfaction. Our training programs are designed to be hands-on,
+        detailed, and fun.
       </p>
       <div class="py-14 mt-26 bg-indi-black-80">
         <p class="text-center lg:text-2xl md:text-lg text-base">
@@ -112,7 +109,10 @@
     <div
       class="
         flex
-        justify-center
+        lg:flex-row
+        md:flex-row
+        flex-col
+        justify-between
         uppercase
         text-sm
         lg:p-12
@@ -123,13 +123,31 @@
       "
     >
       <div>
+        <p class="mb-6"><span class="text-indi-grey">prev:</span>we build</p>
+        <a href="/build">
+
+          <svg
+            class="lg:h-8 md:h-7 h-5"
+            viewBox="0 0 61 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M61 15H2M2 15L15.8165 1M2 15L15.8165 29"
+              stroke="#242932"
+              stroke-width="2"
+            />
+          </svg>
+        </a>
+      </div>
+      <div>
         <div>
           <p class="mb-6 text-right">
-            <span class="text-indi-grey">next: </span>we build
+            <span class="text-indi-grey">next:</span>we support
           </p>
-          <a href="/build">
+          <a href="/support">
             <svg
-              class="lg:h-8 md:h-7 h-5 mx-auto"
+              class="lg:h-8 md:h-7 h-5 ml-auto"
               viewBox="0 0 61 30"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
