@@ -27,7 +27,7 @@
             :class="{ active: tab.isActive } "
             @click="selectTab(tab)"
           >
-          
+
           </li>
         </ul>
     </div>
@@ -46,6 +46,7 @@ export default {
   },
   methods: {
     selectTab(selectedTab) {
+      this.$router.push("#our-expertise")
       this.tabs.forEach(
         (tab) =>
           (tab.$data.isActive = tab.$props.title === selectedTab.$props.title)

@@ -1,7 +1,7 @@
 <template>
   <div>
     <TheNavBar />
-    <header
+    <header id="header"
       class="flex w-full lg:flex-row md:flex-col flex-col h-168 lg:h-170 md:h-192"
     >
       <div class="md:h-126 h-105 lg:h-full lg:w-1/2 md:w-full w-full relative">
@@ -103,7 +103,7 @@
         </ServiceCard>
       </div>
     </header>
-    <section class="lg:pt-36 md:pt-26 pt-20 lg:ml-26 md:ml-12 ml-6 mr-12 relative border-b">
+    <section id="our-expertise" class="lg:pt-36 md:pt-26 pt-20 lg:ml-26 md:ml-12 ml-6 mr-12 relative border-b">
       <h1 class="lg:text-4xl md:text-3.5xl text-2xl lg:mb-24 md:mb-12 mb-10">Our Expertise</h1>
       <ExpertiseTabs>
         <Tab
@@ -226,6 +226,7 @@
       </div>
     </section>
     <section
+    id="who-we-serve"
       class="
         lg:py-36 md:py-26 py-20
         lg:px-26 md:px-12 px-6
